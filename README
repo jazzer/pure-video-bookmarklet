@@ -1,0 +1,10 @@
+Put the pure-video.js file to a server accessible for you.
+Then change the link to the pure-video.js in pure-video.html.
+Open pure-video.html file and drag the link to your bookmarks bar.
+When on a page with a video (test it on YouTube), click that bookmark.
+
+TODO:
+- prevent reloading of the video
+- optionally change window size to video size
+- try to remove address bar and such to save more space
+- add some nice CSS3 to the video?
