@@ -1,3 +1,10 @@
+/**
+License: AGPLv3
+
+Thanks for the code to make sure jQuery is imported to
+http://www.learningjquery.com/2009/04/better-stronger-safer-jquerify-bookmarklet
+*/
+
     (function() {
       var el=document.createElement('div'),
           b=document.getElementsByTagName('body')[0],
@@ -62,7 +69,7 @@
         }
         // generic attempt
         if ($('object[type="application/x-shockwave-flash"]').length > 0){
-            target = $('object[type="application/x-shockwave-flash"]');//.parent('div'); 
+            target = $('object[type="application/x-shockwave-flash"]');
         }
         // ask user
         if (target === undefined) {
